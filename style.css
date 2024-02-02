@@ -1,0 +1,61 @@
+body{
+    background-image: url("Resources/images/hero-bg.jpg ");
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar .logo a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+.navbar .all_links{
+    display: flex;
+    position: relative;
+}
+.navbar .all_links li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar .all_links a{
+    font-weight: 200px;
+    font-size: 20px;
+    color: white;
+    padding: 9px 0;
+    text-decoration: none;
+    font-family: "Arial Narrow";
+}
+h3{
+    font-size: x-large;
+    color: white;
+    font-family: "Arial Narrow";
+}
+h2{
+    font-size: xx-large;
+    color: white;
+     font-family: "Arial Narrow";
+}
+h1{
+    font-size: xxx-large;
+    color: white;
+     font-family: "Arial Narrow";
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: "Arial Narrow";
+}
+.btn button{
+    border-color: black;
+    background-color: transparent;
+}
+.btn button:hover{
+    background-color:white;
+    border-color: white;
+}
